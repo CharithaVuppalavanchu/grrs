@@ -1,0 +1,17 @@
+[package]
+name = "grrs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Charitha,Vandana"]
+license = "MIT OR Apache-2.0"
+description = "A tool to search files"
+readme = "README.md"
+keywords = ["cli", "search", "demo"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = { version = "3.0", features = ["derive"] }
+anyhow = "1.0"
+indicatif = "0.17.0"
+env_logger = "0.9.0"
+log = "0.4.0"
